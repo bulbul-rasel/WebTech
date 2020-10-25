@@ -90,10 +90,10 @@
 	<span><?php echo $emailError; ?></span><br />
 	<h4>Address</h4>
 
-	<input type="text" name="stadd"><br />
+	<input type="text" name="stadd" style="width:500px" ><br />
 	Street Address<br />
 
-	<input type="text" name="stadd2" ><br />
+	<input type="text" name="stadd2" style="width:500px" ><br />
 	Street Line 2 <br />
 
 	<span><?php echo $cityError; ?></span><br />
