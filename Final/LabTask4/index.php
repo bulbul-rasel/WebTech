@@ -6,11 +6,11 @@
 
 	<script>
 			function validate() {
-				var idErr = document.getElementById('id').value;
-				var usernameErr = document.getElementById('username').value;
-				var passErr = document.getElementById('pass').value;
-				var emailErr = document.getElementById('email').value;
-				var dobErr = document.getElementById('dob').value;
+				var idErr = document.getElementById('e_id').value;
+				var usernameErr = document.getElementById('e_name').value;
+				var passErr = document.getElementById('e_pass').value;
+				var emailErr = document.getElementById('e_email').value;
+				var dobErr = document.getElementById('e_dob').value;
 				console.log(idErr);
 
 				if(idErr == "") {
